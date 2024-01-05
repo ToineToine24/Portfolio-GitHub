@@ -1,0 +1,136 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p.css">
+    <title> Web site of ToineToine</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="js/app.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+
+<body>   
+    <div class="loader" id="loader">
+      <p> Chargement...</p>    
+    </div>
+   
+  
+    <div class="email-notification">
+      <img src="img/envellope.png" alt="email" onclick="display_modal()">
+    </div>
+  
+    <div class="modal" id="modal">
+      <div class="modal-container">
+        <h2>S'inscrire à la newslatter</h2>
+        <form action="newslatter.php" method="post">
+          <input type="mail" name="mail" placeholder="thibaut.dupont@gmail.com" required>
+          <input type="submit" value="S'inscrire">
+        </form>
+      </div>
+    </div>
+  
+    <div>  
+        <header>
+          <a href="/"><img src="img/image header.jpg" alt="Vague de Kanagawa"></a>
+          <a href="/"> Mon site </a>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">A-propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </header>
+        <div class="page-main">
+          <div class="bienvenue" id="accueil">
+            <img src="img/réunion.jpg">
+            <div> 
+                <h1> Bienvene sur mon site web ! </h1>
+                  <p> Lorem ipsum dolor sit amet. Et voluptas numquam ut dolorum voluptates ea dolorum deserunt nam earum quidem vel quaerat ipsa aut minima numquam aut quia libero. Et eligendi cupiditate ut quisquam commodi nam magni nostrum non nemo tempore et pariatur iure et error voluptatem. Cum distinctio voluptas id numquam temporibus ex quidem nobis ut nulla culpa id corporis architecto et incidunt distinctio eum possimus voluptas. Non minima autem et nulla asperiores et sunt cumque
+                  Qui adipisci quod ut sequi laudantium qui nihil nihil et suscipit voluptatibus ab excepturi eaque quo omnis soluta in rerum nulla. Ut rerum autem in alias eius sit enim culpa aut dolorum obcaecati. Ab sint quia ut nesciunt amet cum galisum quasi qui voluptatem cupiditate hic cumque laudantium aut blanditiis eius.
+                  um minima veritatis et odio animi ex obcaecati consequuntur est enim tempore. Aut dolores cumque aut voluptatibus tenetur et quibusdam galisum et libero debitis quo nostrum doloremque sit fugiat maiores.
+                  </p> 
+            </div>
+          </div>
+         
+          <div class="separator"></div> 
+          <div class="a-propos" id="a-propos">
+            <h2 class="title-categrory"> A propos</h2>
+            <div class="picture-propos">
+            <div class="infos-picture-propos">
+              <div class="picture-propos-text">
+                <h3> Notre Team </h3>
+                <p>Lorem ipsum dolor sit amet. Et voluptas numquam ut dolorum voluptates ea dolorum deserunt nam earum quidem vel quaerat ipsa aut minima numquam aut quia libero. Et eligendi cupiditate ut quisquam commodi nam magni nostrum non nemo tempore et pariatur iure et error voluptatem. Cum distinctio voluptas id numquam temporibus ex quidem nobis ut nulla culpa id corporis architecto et incidunt distinctio eum possimus voluptas. Non minima autem et nulla asperiores et sunt cumque
+                  Qui adipisci quod ut sequi laudantium qui nihil nihil et suscipit voluptatibus ab excepturi eaque quo omnis soluta in rerum nulla. Ut rerum autem in alias eius sit enim culpa aut dolorum obcaecati. Ab sint quia ut nesciunt amet cum galisum quasi qui voluptatem cupiditate hic cumque laudantium aut blanditiis eius.
+                  um minima veritatis et odio animi ex obcaecati consequuntur est enim tempore. Aut dolores cumque aut voluptatibus tenetur et quibusdam galisum et libero debitis qu</p>
+              </div>  
+            </div>
+            </div>
+          </div>
+  
+          <div class="contact" id="contact">
+            <h2 class="title-category">Contact</h2>
+            <div class="form-contact-container">
+              <form action="contact.php" method="post" class="form-contact">
+                <div class="form-top">
+                  <div class="form-left">
+  
+                    <div>
+                      <label for="nom">Nom</label>
+                      <input type="text" id="nom" name="nom" placeholder="Antoine Le Rudulier">
+                  </div>
+  
+                  <div>
+                      <label for="email">E-mail</label>
+                      <input autocomplete="off" type="email" id="email" name="email" placeholder="antlerudulier@gmail.com">
+                  </div>
+              </div>
+              <div class="form-right">
+                  <label for="message">Votre message</label>
+                  <textarea id="message" name="message" cols="30" rows="5" placeholder="Je vous contacte pour..."></textarea>
+              </div>
+  
+                <div class="form-bottom">
+                  <input type="submit" name="envoyer" value="Envoyer">
+                </div>
+              </form>
+            </div>
+          </div>
+                <div class="separator"></div>
+                <div class="commentaires" id="commentaires">
+                <h2 class="title-categrory">Commentaires</h2>
+                    
+                  <div class="commentaire">
+                   <img src="img/walpaper david gogins.jpg" class="commentaire-pp">
+                     <div class="commentaire-text">
+                            <h3 class="commentaire-Nom">Peter Parker</h3>
+                            <p class="commentaire-message">
+                               <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h3>
+                            </p>
+                        </div>
+                    </div>
+  
+                    <div class="commentaire">
+                        <img src="img/work.jpg" class="commentaire-pp">
+                        <div class="commentaire-text">
+                            <h3 class="commentaire-Nom">Milles Morales</h3>
+                            <p class="commentaire-message">
+                                <h3> Tempus fugit, et piscis volat in caelo.</h3>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>  
+  
+    <footer> 
+      <h2> Mon Site Web 2024 </h2>
+    </footer>      
+  
+  </body>
+  </html>
+  
+
+
+</html>
