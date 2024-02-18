@@ -15,5 +15,5 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function display_modal (){
-    document.getElementById("modal ").style.display = "block"
+    document.getElementById("modal").style.display = "block"
 }
